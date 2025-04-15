@@ -1,0 +1,23 @@
+
+---
+
+### **2. 24_APIRelayWatch**  
+**Description:**  
+Monitors latency and uptime across API relays or proxy clusters in real-time.
+
+#### **README.md**
+```markdown
+# APIRelayWatch - Multi-Relay Endpoint Tracker
+
+APIRelayWatch provides visibility into health and response metrics of APIs behind relay layers.
+
+## Features
+- Logs response time and HTTP code  
+- CSV or JSON export  
+- Retry and timeout support  
+
+## Usage
+```bash
+git clone https://github.com/your-username/24_APIRelayWatch.git
+cd 24_APIRelayWatch
+python monitor.py
