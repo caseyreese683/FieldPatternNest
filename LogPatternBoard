@@ -1,0 +1,23 @@
+
+---
+
+### **3. 24_LogPatternBoard**  
+**Description:**  
+Analyzes logs to detect message repetition, burst frequency, and keyword-based clustering.
+
+#### **README.md**
+```markdown
+# LogPatternBoard - Frequency-Based Log Analyzer
+
+LogPatternBoard simplifies log forensics by surfacing repeating patterns, warnings, and high-volume log clusters.
+
+## Features
+- Frequency counters  
+- Timestamp-based burst detection  
+- Keyword highlighting  
+
+## Usage
+```bash
+git clone https://github.com/your-username/24_LogPatternBoard.git
+cd 24_LogPatternBoard
+python analyze.py logs/system.log
